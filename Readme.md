@@ -19,13 +19,17 @@ Extensive experiments on image classification and semantic segmentation with mul
 
 ### Reduce Computation and Memory Complexity for Backpropagation via Gradient Filter
 
-![](assets/gf_method.png)
+<p align="center">
+  <img src="assets/gf_method.png" />
+</p>
 
 Because of the high computation and memory complexity, backpropagation (BP) is the key bottleneck for CNN training. Our method reduces the complexity by introducing the gradient filter (highlighted in red in the bottom figure). The gradient filter approximates the gradient map with one consisting fewer unique elements and special structures. By doing so, operations in BP for a convolution layer can be greatly simplified, thus saving computation and memory.
 
 ### Over 10 $\times$ Speedup with Marginal Accuracy Loss 
 
-![](assets/latency.png)
+<p align="center">
+  <img src="assets/latency.png" />
+</p>
 
 Our method achieves significant speedup on both edge devices (Raspberry Pi 3 and NVIDIA Jetson Nano) and desktop devices with marginal accuracy loss.
 
