@@ -1,0 +1,26 @@
+enc_10L_fcn_r18-d8_512x512_voc12aug_cityscapes, 0, 0.4354, 0.5796
+enc_10L_fcn_r18-d8_512x512_voc12aug_cityscapes, 1, 0.4429, 0.5722
+enc_10L_fcn_r18-d8_512x512_voc12aug_cityscapes, 2, 0.4378, 0.5755
+enc_5L_fcn_r18-d8_512x512_voc12aug_cityscapes, 0, 0.2731, 0.3821
+enc_5L_fcn_r18-d8_512x512_voc12aug_cityscapes, 1, 0.2751, 0.3735
+enc_5L_fcn_r18-d8_512x512_voc12aug_cityscapes, 2, 0.2741, 0.3814
+filt_10L_fcn_r18-d8_512x512_voc12aug_cityscapes, 6, 0.3691, 0.5014
+filt_10L_fcn_r18-d8_512x512_voc12aug_cityscapes, 7, 0.3753, 0.4917
+filt_10L_fcn_r18-d8_512x512_voc12aug_cityscapes, 8, 0.3716, 0.4969
+filt_5L_fcn_r18-d8_512x512_voc12aug_cityscapes, 0, 0.2724, 0.381
+filt_5L_fcn_r18-d8_512x512_voc12aug_cityscapes, 1, 0.2764, 0.3745
+filt_5L_fcn_r18-d8_512x512_voc12aug_cityscapes, 2, 0.2738, 0.381
+full_fcn_r18-d8_512x512_20k_voc12aug_cityscapes, 0, 0.4536, 0.5953
+full_fcn_r18-d8_512x512_20k_voc12aug_cityscapes, 1, 0.4533, 0.583
+full_fcn_r18-d8_512x512_20k_voc12aug_cityscapes, 2, 0.4496, 0.5856
+----------------------------------------------------------------------------------------------------
+enc_10L_fcn_r18-d8_512x512_voc12aug_cityscapes              , mean, 0.4387, 0.5758
+enc_10L_fcn_r18-d8_512x512_voc12aug_cityscapes              ,  std, 0.0031, 0.0030
+enc_5L_fcn_r18-d8_512x512_voc12aug_cityscapes               , mean, 0.2741, 0.3790
+enc_5L_fcn_r18-d8_512x512_voc12aug_cityscapes               ,  std, 0.0008, 0.0039
+filt_10L_fcn_r18-d8_512x512_voc12aug_cityscapes             , mean, 0.3720, 0.4967
+filt_10L_fcn_r18-d8_512x512_voc12aug_cityscapes             ,  std, 0.0025, 0.0040
+filt_5L_fcn_r18-d8_512x512_voc12aug_cityscapes              , mean, 0.2742, 0.3788
+filt_5L_fcn_r18-d8_512x512_voc12aug_cityscapes              ,  std, 0.0017, 0.0031
+full_fcn_r18-d8_512x512_20k_voc12aug_cityscapes             , mean, 0.4522, 0.5880
+full_fcn_r18-d8_512x512_20k_voc12aug_cityscapes             ,  std, 0.0018, 0.0053

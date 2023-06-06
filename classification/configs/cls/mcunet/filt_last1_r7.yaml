@@ -1,0 +1,67 @@
+trainer:
+  gpus: 1
+  gradient_clip_val: 1.0
+  max_epochs: 20
+  log_every_n_steps: 5
+  num_sanity_val_steps: 0
+  callbacks:
+    - class_path: pytorch_lightning.callbacks.LearningRateMonitor
+      init_args:
+        logging_interval: 'epoch'
+    - class_path: pytorch_lightning.callbacks.GPUStatsMonitor
+      init_args:
+        fan_speed: True
+        temperature: True
+    - class_path: pytorch_lightning.callbacks.ModelCheckpoint
+      init_args:
+        save_top_k: 2
+        save_last: True
+        monitor: "val-acc"
+        mode: 'max'
+        filename: "{epoch:02d}-{val-acc:.3f}"
+model:
+  backbone: 'mcunet'
+  backbone_args:
+    in_channels: 3
+    output_stride: 32
+    pretrained: True
+  num_classes: 10
+  load: ""
+  learning_rate: 3e-4
+  weight_decay: 1e-4
+  set_bn_eval: True
+  filter_late_install: True
+  with_grad_filter: True
+  filter_cfgs:
+    filter_install:
+      - path: "backbone.model.14"
+        radius: 7
+        type: "MCUNetBlock"
+  freeze_cfgs:
+    - path: "backbone model [0]"
+    - path: "backbone model [1]"
+    - path: "backbone model [2]"
+    - path: "backbone model [3]"
+    - path: "backbone model [4]"
+    - path: "backbone model [5]"
+    - path: "backbone model [6]"
+    - path: "backbone model [7]"
+    - path: "backbone model [8]"
+    - path: "backbone model [9]"
+    - path: "backbone model [10]"
+    - path: "backbone model [11]"
+    - path: "backbone model [12]"
+    - path: "backbone model [13]"
+    - path: "backbone model [14] mobile_inverted_conv inverted_bottleneck"
+    - path: "backbone model [14] mobile_inverted_conv depth_conv"
+data:
+  data_dir: "./data/cifar10"
+  name: "cifar10"
+  num_partitions: 2
+  iid: False
+  batch_size: 128
+  train_workers: 12
+  val_workers: 12
+logger:
+  save_dir: "runs/cls/mcunet"
+  exp_name: "filt_last1_r7"

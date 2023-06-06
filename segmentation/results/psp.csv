@@ -1,0 +1,26 @@
+enc_10L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes, 0, 0.5317, 0.6718
+enc_10L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes, 1, 0.5298, 0.6649
+enc_10L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes, 2, 0.5329, 0.6762
+enc_5L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes, 0, 0.3936, 0.5179
+enc_5L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes, 1, 0.3963, 0.5134
+enc_5L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes, 2, 0.3963, 0.5304
+filt_10L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes, 0, 0.512, 0.6501
+filt_10L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes, 1, 0.5042, 0.6384
+filt_10L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes, 2, 0.5103, 0.6535
+filt_5L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes, 0, 0.3914, 0.5159
+filt_5L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes, 1, 0.3933, 0.5103
+filt_5L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes, 2, 0.3956, 0.5296
+full_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes, 0, 0.5497, 0.6846
+full_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes, 1, 0.551, 0.681
+full_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes, 2, 0.5497, 0.675
+----------------------------------------------------------------------------------------------------
+enc_10L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes       , mean, 0.5315, 0.6710
+enc_10L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes       ,  std, 0.0013, 0.0047
+enc_5L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes        , mean, 0.3954, 0.5206
+enc_5L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes        ,  std, 0.0013, 0.0072
+filt_10L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes      , mean, 0.5088, 0.6473
+filt_10L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes      ,  std, 0.0033, 0.0065
+filt_5L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes       , mean, 0.3934, 0.5186
+filt_5L_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes       ,  std, 0.0017, 0.0081
+full_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes          , mean, 0.5501, 0.6802
+full_pspnet_r18-d8_512x512_20k_voc12aug_cityscapes          ,  std, 0.0006, 0.0040

@@ -1,0 +1,26 @@
+enc_10L_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes, 0, 0.5504, 0.6907
+enc_10L_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes, 1, 0.5408, 0.6774
+enc_10L_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes, 2, 0.5484, 0.6911
+enc_5L_deeplabv3_r18-d8_512x512_20k_voc12aug, 0, 0.4075, 0.5295
+enc_5L_deeplabv3_r18-d8_512x512_20k_voc12aug, 1, 0.4104, 0.5373
+enc_5L_deeplabv3_r18-d8_512x512_20k_voc12aug, 2, 0.4075, 0.528
+filt_10L_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes, 0, 0.4744, 0.6008
+filt_10L_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes, 2, 0.4739, 0.6049
+filt_10L_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes, 3, 0.465, 0.6026
+filt_5L_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes, 0, 0.3218, 0.4293
+filt_5L_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes, 1, 0.3281, 0.438
+filt_5L_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes, 2, 0.3428, 0.4627
+full_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes, 0, 0.5844, 0.7203
+full_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes, 1, 0.5847, 0.7173
+full_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes, 2, 0.5805, 0.7139
+----------------------------------------------------------------------------------------------------
+enc_10L_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes    , mean, 0.5465, 0.6864
+enc_10L_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes    ,  std, 0.0041, 0.0064
+enc_5L_deeplabv3_r18-d8_512x512_20k_voc12aug                , mean, 0.4085, 0.5316
+enc_5L_deeplabv3_r18-d8_512x512_20k_voc12aug                ,  std, 0.0014, 0.0041
+filt_10L_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes   , mean, 0.4711, 0.6028
+filt_10L_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes   ,  std, 0.0043, 0.0017
+filt_5L_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes    , mean, 0.3309, 0.4433
+filt_5L_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes    ,  std, 0.0088, 0.0141
+full_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes       , mean, 0.5832, 0.7172
+full_deeplabv3_r18-d8_512x512_20k_voc12aug_cityscapes       ,  std, 0.0019, 0.0026

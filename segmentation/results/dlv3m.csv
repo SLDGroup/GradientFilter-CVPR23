@@ -1,0 +1,76 @@
+enc_10L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k, 0, 0.6118, 0.6986
+enc_10L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k, 1, 0.6084, 0.6981
+enc_10L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k, 2, 0.6104, 0.6972
+enc_10L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k, 0, 0.5755, 0.7186
+enc_10L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k, 1, 0.5777, 0.7147
+enc_10L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k, 2, 0.5757, 0.7247
+enc_10L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes, 0, 0.4791, 0.6167
+enc_10L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes, 1, 0.4771, 0.6074
+enc_10L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes, 2, 0.4824, 0.6205
+enc_5L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k, 0, 0.5099, 0.592
+enc_5L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k, 1, 0.5095, 0.5916
+enc_5L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k, 2, 0.5106, 0.5924
+enc_5L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k, 0, 0.5153, 0.6558
+enc_5L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k, 1, 0.5161, 0.6666
+enc_5L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k, 2, 0.514, 0.6601
+enc_5L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes, 0, 0.3838, 0.4961
+enc_5L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes, 1, 0.3858, 0.5003
+enc_5L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes, 2, 0.3768, 0.4842
+filt_10L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k, 0, 0.5165, 0.6042
+filt_10L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k, 1, 0.4956, 0.5987
+filt_10L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k, 2, 0.4944, 0.5968
+filt_10L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k, 0, 0.5499, 0.6928
+filt_10L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k, 1, 0.5534, 0.693
+filt_10L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k, 2, 0.5509, 0.6985
+filt_10L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes, 0, 0.454, 0.5897
+filt_10L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes, 1, 0.4561, 0.5858
+filt_10L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes, 2, 0.4558, 0.5943
+filt_5L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k, 0, 0.4887, 0.5686
+filt_5L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k, 1, 0.4874, 0.5678
+filt_5L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k, 2, 0.4889, 0.5697
+filt_5L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k, 0, 0.494, 0.6375
+filt_5L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k, 1, 0.4941, 0.6489
+filt_5L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k, 2, 0.494, 0.6375
+filt_5L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes, 0, 0.357, 0.4671
+filt_5L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes, 1, 0.3486, 0.4531
+filt_5L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes, 2, 0.3586, 0.4702
+full_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k, 0, 0.7117, 0.7982
+full_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k, 1, 0.7093, 0.7976
+full_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k, 2, 0.7126, 0.7985
+full_deeplabv3_mv2_512x512_20k_voc12aug_ade20k, 0, 0.6072, 0.7431
+full_deeplabv3_mv2_512x512_20k_voc12aug_ade20k, 1, 0.6107, 0.7444
+full_deeplabv3_mv2_512x512_20k_voc12aug_ade20k, 2, 0.6056, 0.7354
+full_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes, 0, 0.5587, 0.6947
+full_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes, 1, 0.5546, 0.6875
+full_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes, 2, 0.5566, 0.6864
+----------------------------------------------------------------------------------------------------
+enc_10L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k        , mean, 0.6102, 0.6980
+enc_10L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k        ,  std, 0.0014, 0.0006
+enc_10L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k           , mean, 0.5763, 0.7193
+enc_10L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k           ,  std, 0.0010, 0.0041
+enc_10L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes       , mean, 0.4795, 0.6149
+enc_10L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes       ,  std, 0.0022, 0.0055
+enc_5L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k         , mean, 0.5100, 0.5920
+enc_5L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k         ,  std, 0.0005, 0.0003
+enc_5L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k            , mean, 0.5151, 0.6608
+enc_5L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k            ,  std, 0.0009, 0.0044
+enc_5L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes        , mean, 0.3821, 0.4935
+enc_5L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes        ,  std, 0.0039, 0.0068
+filt_10L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k       , mean, 0.5022, 0.5999
+filt_10L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k       ,  std, 0.0101, 0.0031
+filt_10L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k          , mean, 0.5514, 0.6948
+filt_10L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k          ,  std, 0.0015, 0.0026
+filt_10L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes      , mean, 0.4553, 0.5899
+filt_10L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes      ,  std, 0.0009, 0.0035
+filt_5L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k        , mean, 0.4883, 0.5687
+filt_5L_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k        ,  std, 0.0007, 0.0008
+filt_5L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k           , mean, 0.4940, 0.6413
+filt_5L_deeplabv3_mv2_512x512_20k_voc12aug_ade20k           ,  std, 0.0000, 0.0054
+filt_5L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes       , mean, 0.3547, 0.4635
+filt_5L_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes       ,  std, 0.0044, 0.0074
+full_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k           , mean, 0.7112, 0.7981
+full_deeplabv3_mv2_512x1024_20k_cityscapes_ade20k           ,  std, 0.0014, 0.0004
+full_deeplabv3_mv2_512x512_20k_voc12aug_ade20k              , mean, 0.6078, 0.7410
+full_deeplabv3_mv2_512x512_20k_voc12aug_ade20k              ,  std, 0.0021, 0.0040
+full_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes          , mean, 0.5566, 0.6895
+full_deeplabv3_mv2_512x512_20k_voc12aug_cityscapes          ,  std, 0.0017, 0.0037
