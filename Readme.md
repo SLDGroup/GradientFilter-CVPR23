@@ -86,10 +86,10 @@ Our method achieves significant speedup on both edge devices (Raspberry Pi 3 and
 7. Extract pretrained / calibtrated model checkpoints and reference experiment logs
     
     Download link:
-    - Pretrained checkpoints for classification
-    - Calibrated checkpoints for semantic segmentation
-    - Experiment logs for classification
-    - Experiment logs for semantic segmentation
+    - [Pretrained checkpoints for classification](https://utexas.box.com/s/9ah6e9kbng5bcrr9mc1nck4uzgup16of)
+    - [Calibrated checkpoints for semantic segmentation](https://utexas.box.com/s/22hbnoiude6p8oysih5vci44p5m0fkt9)
+    - [Experiment logs for classification](https://utexas.box.com/s/521av6l17mmyp6rq0hsqxmim72jat4le)
+    - [Experiment logs for semantic segmentation](https://utexas.box.com/s/nqiwucup4b98tyrvte1mznnf99rtr2jt)
 
     Extract checkpoints:
     ```
