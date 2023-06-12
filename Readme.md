@@ -158,6 +158,6 @@ We provide an example implementation of our gradient filter with OneDNN and CUDN
 }
 ```
 
-## Credits
+## Acknowledgement
 
 Codes for classification backbones are adopted from [segmentation models](https://github.com/qubvel/segmentation_models.pytorch). Experiments for semantic segmentation are developed based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation). We appretiate their effort for building these handy tools.
