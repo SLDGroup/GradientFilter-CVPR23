@@ -2,7 +2,7 @@
 
 > Yuedong Yang, Guihong Li, Radu Marculescu
 
-This is the official repo for paper `Efficient On-device Training via Gradient Filtering` accepted by CVPR 2023.
+This is the official repo for the paper `Efficient On-device Training via Gradient Filtering` accepted in CVPR 2023.
 
 [arxiv](https://arxiv.org/abs/2301.00330)
 
@@ -48,7 +48,7 @@ Our method achieves significant speedup on both edge devices (Raspberry Pi 3 and
     conda install pytorch==1.13.1 torchvision==0.14.1 pytorch-cuda=11.7 -c pytorch -c nvidia
     ```
 
-3. Install dependencies for classification task
+3. Install dependencies for the classification task
 
     ```
     pip install "jsonargparse[signatures]" pytorch_lightning==1.6.5 torchmetrics==0.9.2 pretrainedmodels
@@ -127,7 +127,7 @@ For example, to train MobileNet-V2 on CIFAR100 dataset with our gradient filter 
     ```
 results are stored under `classification/runs`
 
-Our experimental framework are mostly config-based, so you can try different experimental setups by simply changing config files under `classification/configs` and `segmentation/configs`.
+Our experimental framework is config-based, so you can try different experimental setups by simply changing config files under `classification/configs` and `segmentation/configs`.
 
 We provide the configs and launching scripts for:
 - [Classification] MobileNet-V2: [configs](classification/configs/cls/mbv2), [scripts](classification/scripts/mbv2)
@@ -145,19 +145,20 @@ Launching scripts for other segmentation models can be adapted from DeepLabV3-Re
 
 ## Experiments for Latency Evaluation
 
-We provide an example implementation of our gradient filter with OneDNN and CUDNN under `latency`. To run latency test, simply launch `run_test.sh` under `latency` folder. Results are saved in `cpu.csv` and `gpu.csv`.
+We provide an example implementation of our gradient filter with OneDNN and CUDNN under `latency`. To run the latency test, simply launch `run_test.sh` under `latency` folder. Results are saved in `cpu.csv` and `gpu.csv`.
 
 ## Cite
 
 ```
-@article{yang2023efficient,
+@inproceedings{yang2023efficient,
   title={Efficient On-device Training via Gradient Filtering},
   author={Yang, Yuedong and Li, Guihong and Marculescu, Radu},
-  journal={arXiv preprint arXiv:2301.00330},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={3811--3820},
   year={2023}
 }
 ```
 
 ## Acknowledgement
 
-Codes for classification backbones are adopted from [segmentation models](https://github.com/qubvel/segmentation_models.pytorch). Experiments for semantic segmentation are developed based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation). We appretiate their effort for building these handy tools.
+Codes for classification backbones are adopted from [segmentation models](https://github.com/qubvel/segmentation_models.pytorch). Experiments for semantic segmentation are developed based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation).
