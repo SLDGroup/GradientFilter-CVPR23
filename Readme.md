@@ -4,7 +4,7 @@
 
 This is the official repo for the paper `Efficient On-device Training via Gradient Filtering` accepted in CVPR 2023.
 
-[arxiv](https://arxiv.org/abs/2301.00330)
+[arxiv](https://arxiv.org/abs/2301.00330) [video](https://www.youtube.com/watch?v=UGcKdzeTAnk)
 
 <details><summary>Abstract</summary>
 
